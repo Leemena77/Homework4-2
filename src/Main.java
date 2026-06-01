@@ -56,32 +56,15 @@ public class Main {
 
         System.out.println("Задача № 4 ");
 
-
-        int ageFrom2To6 = 2;
-        if (ageFrom2To6 >= 2 && ageFrom2To6 < 6) {
-            System.out.println("Если возраст человека равен " + ageFrom2To6 + ", то ему нужно ходить  в детский сад");
-        } else {
-            System.out.println("Ему не нужно ходить в детский сад");
-        }
-
-        int ageFrom7To18 = 7;
-        if (ageFrom7To18 >= 7 && ageFrom7To18 < 18) {
-            System.out.println("Если возраст человека равен " + ageFrom7To18 + ", то ему нужно ходить  в школу");
-        } else {
-            System.out.println("Ему не нужно ходить в школу");
-        }
-        int ageFrom18To24 = 18;
-        if (ageFrom18To24 >= 18 && ageFrom18To24 < 24) {
-            System.out.println("Если возраст человека равен " + ageFrom18To24 + ", то ему нужно ходить в университет");
-        } else {
-            System.out.println("Ему не нужно ходить в университет");
-        }
-
-        int ageFromMoreThan24 = 25;
-        if (ageFromMoreThan24 > 24) {
-            System.out.println("Если возраст человека равен " + ageFromMoreThan24 + ", то ему нужно ходить на работу");
-        } else {
-            System.out.println("Ему не нужно ходить на работу");
+        int ageHuman = 17;
+        if (ageHuman >= 2 && ageHuman < 6) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить  в детский сад");
+        } else if (ageHuman >= 7 && age1 < 18) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить  в школу");
+        } else if (ageHuman >= 18 && ageHuman < 24) {
+            System.out.println("Если возраст человека равен " + ageHuman+ ", то ему нужно ходить в университет");
+        } else if (ageHuman > 24) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить на работу");
         }
 
         System.out.println("Задача № 5");
@@ -114,12 +97,10 @@ public class Main {
         int place = 61;
         if (place > 60) {
             System.out.println("Если место под номером " + place + ", то  место стоячее");
-        }
-        int place2 = 60;
-        int place3 = 102;
-        if (place2 <= 60 && place!= 0) {
-            System.out.println("Если место под номером " + place2 + ", то место сидячее");
-            System.out.println("Если мест " + place3 + ", то вагон уже полностью забит ");
+        } else if (place <= 60 && place!= 0) {
+            System.out.println("Если место под номером " + place + ", то место сидячее");
+        } else if (place > 102) {
+            System.out.println("Если мест " + place + ", то вагон уже полностью забит ");
         }
 
         System.out.println("Задание № 7");
